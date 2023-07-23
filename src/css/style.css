@@ -1,0 +1,99 @@
+/* Basic */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* Basic */
+
+/* Header */
+header {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  margin-right: 40px;
+  transition: .6s;
+  color: #fff;
+}
+
+.header-links:hover {
+    color: #e65d00;
+}
+/* Header */
+
+/* Home */
+.home {
+  background: url(../images/Background.png);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  height: 1118px;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-title {
+  margin-bottom: 27px;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140px;
+  color: #fff;
+}
+
+.home-subtitle {
+  margin-bottom: 61px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  color: #fff;
+}
+
+.home-btn {
+  width: 202.141px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  transition: .6s;
+  background: #1f6577;
+  color: #fff;
+}
+
+.home-btn:hover {
+    border: 1px solid #e65d00;
+    color: #e65d00;
+    background-color: transparent;
+}
+/* Home */
